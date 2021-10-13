@@ -37,7 +37,7 @@ class CalendarPrint{
 			//토요일이 되었을때 줄바꿈 처리
 			if(countDay%7==0) {
 				System.out.println();
-			}
+			} 
 			countDay++;
 		}
 	}
