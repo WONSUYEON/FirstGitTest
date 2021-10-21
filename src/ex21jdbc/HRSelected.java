@@ -19,7 +19,7 @@ public class HRSelected
 			
 			Connection con = DriverManager.getConnection(url,id,pass);
 			if(con!=null) {
-				System.out.println("Oracle 연결성공");
+				System.out.println("Oracle 연결성공ㅇ");
 				/*
 				1. 쿼리문작성 : 작성시 주의할점은 줄바꿈을 할때 앞뒤로
 					스페이스를 삽입하는게 좋다. 그렇지 않으면 서로 문장이 
